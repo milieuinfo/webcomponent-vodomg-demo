@@ -6,7 +6,7 @@
   },
   "homepage": "https://github.com/milieuinfo/webcomponent-vodomg-demo#readme",
   "name": "vodomg-demo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "devDependencies": {
     "np": "3.0.4"
   },
