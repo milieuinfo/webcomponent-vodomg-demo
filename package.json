@@ -29,5 +29,8 @@
     "supports-color": "3.1.2",
     "type-detect": "1.0.0"
   },
+  "dependencies": {
+    "vodomg-litelement": "milieuinfo/webcomponent-vodomg-litelement#v1.0.0"
+  }
   "main": "vodomg-demo.js"
 }
