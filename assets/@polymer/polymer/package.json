@@ -17,6 +17,7 @@
     "fetchSpec": "3.1.0"
   },
   "_requiredBy": [
+<<<<<<< HEAD
     "/",
     "/@polymer/app-layout",
     "/@polymer/iron-a11y-announcer",
@@ -51,6 +52,14 @@
   "_shasum": "3e1b7447a1e350fd654e1823def655d0f0828a70",
   "_spec": "@polymer/polymer@3.1.0",
   "_where": "/private/var/folders/90/9cnpsq_53ng_m4n6q6zfvy5h0000gn/T/asset_stagejhO3t3",
+=======
+    "/"
+  ],
+  "_resolved": "http://artifactory-pr.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/@polymer/polymer/-/polymer-3.1.0.tgz",
+  "_shasum": "3e1b7447a1e350fd654e1823def655d0f0828a70",
+  "_spec": "@polymer/polymer@3.1.0",
+  "_where": "/private/var/folders/90/9cnpsq_53ng_m4n6q6zfvy5h0000gn/T/asset_staget1dRxn",
+>>>>>>> branch 'master' of https://github.com/milieuinfo/webcomponent-vodomg-demo.git
   "author": {
     "name": "The Polymer Project Authors"
   },
