@@ -8,6 +8,7 @@
   "name": "vodomg-demo",
   "version": "1.0.0",
   "devDependencies": {
+    "@0xcda7a/empathy": "0.0.9",
     "np": "3.0.4"
   },
   "scripts": {
@@ -15,7 +16,9 @@
     "build": "npm run build:dist",
     "build:dist": "polymer build",
     "build:local": "npm run clean && bower install && npm install && npm run test && npm run build:dist",
-    "release": "np"
+    "build:empathy": "empathy install",
+    "release": "np",
+    "prepublish": "empathy publish vodomg-demo.js"
   },
   "publishConfig": {
     "registry": "http://artifactory-pr-build.lb.cumuli.be:8081/artifactory/api/npm/acd-npm/"
@@ -30,7 +33,8 @@
     "type-detect": "1.0.0"
   },
   "dependencies": {
-    "vodomg-litelement": "milieuinfo/webcomponent-vodomg-litelement#v1.0.0"
+    "@polymer/polymer": "3.1.0",
+    "@polymer/iron-component-page": "4.0.1"
   },
   "main": "vodomg-demo.js"
 }
